@@ -1,0 +1,167 @@
+/*Index csss*/
+
+.nav-bar{
+    background-color: #1f2937;
+    color:white;
+    text-decoration: none;
+    display: flex;
+    
+
+
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    text-align: right;
+    padding-left: 10%;
+    gap: 5rem;
+    display: inline-block;
+    top: 5px;
+}
+
+.first{
+    background-color: #1f2937;
+    padding-top: 0%;
+    display: flex;
+    align-items: center;
+    padding-left: 13%;
+    gap: 3rem;
+    
+
+}
+
+.first-description{
+    
+    color: #f9faf8;
+    size: 48px;
+    border-radius: 50%;
+    
+
+}
+
+.first-description h4{
+    size: 18px;
+    color: #f9faf8;
+}
+
+.sign-up{
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+    text-decoration: none;
+}
+
+.second h1{
+    background-color: white;
+    color: #1f2937;
+    size: 36px;
+    align-content: center;
+    padding-left: 35%
+}
+.second-container{
+    background-color: white;
+    display: flex;
+    
+}
+
+.second-one img{
+    align-content: center;
+    height: 250px;
+    width: 250px;
+    border: 40px;
+    border-color: black;
+    border-radius: 20%;
+}
+
+
+.second-two img{
+    align-content: center;
+    height: 250px;
+    width: 250px;
+    border: 40px;
+    border-color: black;
+    border-radius: 20%;
+}
+
+
+.second-three img{
+    align-content: center;
+    height: 250px;
+    width: 250px;
+    border: 40px;
+    border-color: black;
+    border-radius: 20%;
+}
+
+
+.second-four img{
+    align-content: center;
+    height: 250px;
+    width: 250px;
+    border: 40px;
+    border-color: black;
+    border-radius: 20%;
+}
+
+.third{
+    background-color: #e5e7eb;
+    color: black;
+}
+
+.third p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding-left: 25%;
+}
+
+.third strong{
+    padding-left: 60%;
+    top: 30px;
+}
+
+
+.fourth{
+    background-color: white;
+    display: flex;
+    height: 300px;
+    align-items: center;
+    padding-left: 250px;
+    color: white;
+}
+
+.subscribe{
+    background-color: #0945a7ee;
+    height: 150px;
+    width: 800px;
+    border-radius: 5px;
+    padding-left: 100px;
+}
+
+.subscribe p{
+    font-size: small;
+    color: #b2b3b6;
+    
+}
+
+.subscribe button{
+    border: 1px;
+    border-color: white;
+    align-content: right;
+    padding-right: 30px;
+}
+
+
+.footer{
+    background-color: #1f2937;
+    height: 80px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
