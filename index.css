@@ -5,29 +5,36 @@
     color:white;
     text-decoration: none;
     display: flex;
+
     
 
 
 }
 
-.nav-bar a{
+.links{
     text-decoration: none;
     color: white;
     text-transform: capitalize;
     text-align: right;
-    padding-left: 10%;
-    gap: 5rem;
+    padding-left: 50%;
     display: inline-block;
-    top: 5px;
+    padding-top: 5px;
+    word-spacing: 5px;
 }
 
+.links a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    gap: 6rem;
+}
 .first{
     background-color: #1f2937;
     padding-top: 0%;
     display: flex;
     align-items: center;
     padding-left: 13%;
-    gap: 3rem;
+    gap: 1rem;
     
 
 }
@@ -66,6 +73,9 @@
 .second-container{
     background-color: white;
     display: flex;
+    align-items: center;
+    padding-left: 12%;
+    gap: 1.5rem;
     
 }
 
@@ -108,6 +118,10 @@
     border-radius: 20%;
 }
 
+.text-muted{
+    align-items: center;
+}
+
 .third{
     background-color: #e5e7eb;
     color: black;
@@ -141,19 +155,24 @@
     width: 800px;
     border-radius: 5px;
     padding-left: 100px;
+    
 }
 
 .subscribe p{
     font-size: small;
-    color: #b2b3b6;
+    color: #ced3e4;
     
 }
 
-.subscribe button{
-    border: 1px;
+.sign-up-btn {
+    padding-left: 60%;
+}
+
+.sign-up-btn .sign-up{
+    background-color: #0945a7ee;
     border-color: white;
-    align-content: right;
-    padding-right: 30px;
+    border-radius: 5px;
+    border-style: solid;
 }
 
 
